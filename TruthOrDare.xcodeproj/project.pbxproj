@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98A352BD507FCA8FB7632DB8 /* Pods_TruthOrDare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FC0EA9BE16538CB1BD91A4A /* Pods_TruthOrDare.framework */; };
 		C9255D58202B828D00E2B9E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9255D57202B828D00E2B9E6 /* AppDelegate.swift */; };
 		C9255D5A202B828D00E2B9E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9255D59202B828D00E2B9E6 /* ViewController.swift */; };
 		C9255D5D202B828D00E2B9E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9255D5B202B828D00E2B9E6 /* Main.storyboard */; };
 		C9255D5F202B828D00E2B9E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9255D5E202B828D00E2B9E6 /* Assets.xcassets */; };
 		C9255D62202B828D00E2B9E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9255D60202B828D00E2B9E6 /* LaunchScreen.storyboard */; };
+		C9845FE1202CA1AD00FF4AAD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C9845FE0202CA1AD00FF4AAD /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		440FB2D404C8FC74A70D97E8 /* Pods-TruthOrDare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TruthOrDare.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TruthOrDare/Pods-TruthOrDare.debug.xcconfig"; sourceTree = "<group>"; };
+		6FC0EA9BE16538CB1BD91A4A /* Pods_TruthOrDare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TruthOrDare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EE2B1C8DFAECA06906B0769 /* Pods-TruthOrDare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TruthOrDare.release.xcconfig"; path = "Pods/Target Support Files/Pods-TruthOrDare/Pods-TruthOrDare.release.xcconfig"; sourceTree = "<group>"; };
 		C9255D54202B828D00E2B9E6 /* TruthOrDare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TruthOrDare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9255D57202B828D00E2B9E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9255D59202B828D00E2B9E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,7 @@
 		C9255D5E202B828D00E2B9E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9255D61202B828D00E2B9E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9255D63202B828D00E2B9E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9845FE0202CA1AD00FF4AAD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98A352BD507FCA8FB7632DB8 /* Pods_TruthOrDare.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5AB924A06426EBB23D324FA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6FC0EA9BE16538CB1BD91A4A /* Pods_TruthOrDare.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7D5F6235526C79D28BBFA4B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				440FB2D404C8FC74A70D97E8 /* Pods-TruthOrDare.debug.xcconfig */,
+				8EE2B1C8DFAECA06906B0769 /* Pods-TruthOrDare.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C9255D4B202B828D00E2B9E6 = {
 			isa = PBXGroup;
 			children = (
 				C9255D56202B828D00E2B9E6 /* TruthOrDare */,
 				C9255D55202B828D00E2B9E6 /* Products */,
+				C7D5F6235526C79D28BBFA4B /* Pods */,
+				5AB924A06426EBB23D324FA6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +86,7 @@
 				C9255D5E202B828D00E2B9E6 /* Assets.xcassets */,
 				C9255D60202B828D00E2B9E6 /* LaunchScreen.storyboard */,
 				C9255D63202B828D00E2B9E6 /* Info.plist */,
+				C9845FE0202CA1AD00FF4AAD /* GoogleService-Info.plist */,
 			);
 			path = TruthOrDare;
 			sourceTree = "<group>";
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C9255D66202B828D00E2B9E6 /* Build configuration list for PBXNativeTarget "TruthOrDare" */;
 			buildPhases = (
+				9A9792C7FBDC33635B82D67F /* [CP] Check Pods Manifest.lock */,
 				C9255D50202B828D00E2B9E6 /* Sources */,
 				C9255D51202B828D00E2B9E6 /* Frameworks */,
 				C9255D52202B828D00E2B9E6 /* Resources */,
+				2F8ADEC65A4EC2A329BD6F4A /* [CP] Embed Pods Frameworks */,
+				36887D9EFC8EF4734D01705C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,12 +154,61 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9255D62202B828D00E2B9E6 /* LaunchScreen.storyboard in Resources */,
+				C9845FE1202CA1AD00FF4AAD /* GoogleService-Info.plist in Resources */,
 				C9255D5F202B828D00E2B9E6 /* Assets.xcassets in Resources */,
 				C9255D5D202B828D00E2B9E6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F8ADEC65A4EC2A329BD6F4A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TruthOrDare/Pods-TruthOrDare-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36887D9EFC8EF4734D01705C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TruthOrDare/Pods-TruthOrDare-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A9792C7FBDC33635B82D67F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C9255D50202B828D00E2B9E6 /* Sources */ = {
@@ -272,6 +351,7 @@
 		};
 		C9255D67202B828D00E2B9E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 440FB2D404C8FC74A70D97E8 /* Pods-TruthOrDare.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +367,7 @@
 		};
 		C9255D68202B828D00E2B9E6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EE2B1C8DFAECA06906B0769 /* Pods-TruthOrDare.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

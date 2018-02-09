@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>113762717965-ots6r3pt4f30773mpv5u99km2cve4r06.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.113762717965-ots6r3pt4f30773mpv5u99km2cve4r06</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAvuEj8mdeHkMW03wVEMxeAf6gW5KrXBvc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>113762717965</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.Vuvu.TruthOrDare</string>
+	<key>PROJECT_ID</key>
+	<string>truthordare-1d21b</string>
+	<key>STORAGE_BUCKET</key>
+	<string>truthordare-1d21b.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:113762717965:ios:9d7dbfe1c470b209</string>
+	<key>DATABASE_URL</key>
+	<string>https://truthordare-1d21b.firebaseio.com</string>
+</dict>
+</plist>
