@@ -8,5 +8,6 @@ target 'TruthOrDare' do
   # Pods for TruthOrDare
     pod 'Firebase/Core'
     pod 'Firebase/Database'
+    pod 'DCKit'
 
 end

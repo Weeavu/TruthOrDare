@@ -71,7 +71,7 @@ class ViewController: UIViewController {
         let rand = Int(arc4random_uniform(UInt32(truthArr.count)))
         textLabel.text = truthArr[rand].name
         truthArr.remove(at: rand)
-        
+    
     }
     
     @IBAction func dareTapped(_ sender: UIButton) {
